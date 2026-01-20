@@ -1,3 +1,5 @@
+import { ArrowRight } from "lucide-react";
+
 const services = [
   {
     title: "Sistemas Web a Medida",

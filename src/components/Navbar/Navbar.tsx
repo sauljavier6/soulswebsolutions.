@@ -19,10 +19,29 @@ export default function Navbar() {
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-white">
-          <li><a href="/" className="hover:text-gray-300 cursor-pointer">Inicio</a></li>
-          <li><a href="/sistemas" className="hover:text-gray-300 cursor-pointer">Sistemas</a></li>
-          <li><a href="/blog" className="hover:text-gray-300 cursor-pointer">Blog</a></li>
-          <li><a href="/contacto" className="hover:text-gray-300 cursor-pointer">Contacto</a></li>
+          <li>
+            <Link to="/" className="hover:text-gray-300 cursor-pointer">
+              Inicio
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/sistemas" className="hover:text-gray-300 cursor-pointer">
+              Sistemas
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/blog" className="hover:text-gray-300 cursor-pointer">
+              Blog
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/contacto" className="hover:text-gray-300 cursor-pointer">
+              Contacto
+            </Link>
+          </li>
         </ul>
 
         {/* CTA DESKTOP */}

@@ -58,13 +58,12 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-4"
         >
           {/* Primary CTA */}
-          <a
-            href="/contacto"
+          <Link
+            to="/contacto"
             className="bg-white text-black px-7 py-3 rounded-full font-semibold transition hover:bg-gray-200 hover:scale-[1.03] active:scale-[0.98]"
           >
             Hablar de mi proyecto
-          </a>
-
+          </Link>
 
           {/* Secondary CTA */}
           <Link

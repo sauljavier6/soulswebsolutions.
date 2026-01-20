@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const targetAudience = [
   {
     icon: "🧑‍💼",
@@ -92,12 +94,12 @@ export default function TargetAudience() {
 
         {/* CTA */}
         <div className="mt-20 text-center">
-          <a
-            href="/contacto"
+          <Link
+            to="/contacto"
             className="inline-flex rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition hover:bg-gray-900"
           >
             Quiero una solución para mi negocio
-          </a>
+          </Link>
         </div>
       </div>
     </section>

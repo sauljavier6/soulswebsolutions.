@@ -1,5 +1,6 @@
 // components/FinalCTA/FinalCTA.tsx
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function FinalCTA() {
   return (
@@ -24,13 +25,13 @@ export default function FinalCTA() {
 
         {/* CTA */}
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <a
-            href="/contacto"
+          <Link
+            to="/contacto"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-10 py-4 text-sm font-semibold text-black transition hover:bg-gray-200"
             aria-label="Agenda una asesoría gratuita para tu sistema"
           >
             Agenda una asesoría gratuita <ArrowRight size={16} />
-          </a>
+          </Link>
         </div>
 
         {/* Microcopy */}

@@ -46,12 +46,12 @@ export default function Navbar() {
 
         {/* CTA DESKTOP */}
         <div className="hidden md:block">
-          <a
-            href="/contacto"
+          <Link
+            to="/contacto"
             className="bg-white text-black px-5 py-2 rounded-full font-semibold hover:bg-gray-200 transition"
           >
             Cotizar
-          </a>
+          </Link>
         </div>
 
         {/* MOBILE BUTTON */}
@@ -95,7 +95,7 @@ export default function Navbar() {
           to="/contacto"
           className="block w-full bg-white text-black py-3 rounded-full font-semibold text-center mt-4 hover:bg-gray-200 transition"
         >
-          Cotizar proyecto
+          Cotizar
         </Link>
       </div>
 
